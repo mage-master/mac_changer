@@ -13,6 +13,6 @@ You can execute the script without or without the command line arguments, the sc
 
 **NOTE**: *On some Linux systems there maybe some unexpected errors, so enter the mac address starting with zeros: **00:xx:xx:xx:xx:xx**. 
 
-*ps: Kindly be sane enough to input hexadecimal values in the x places, by this far you must already know that*
+*ps: Kindly be sane enough to input hexadecimal values in the x places, by this far you must already know that. Requires python 3.x to run*
 
 **- mage-master**
