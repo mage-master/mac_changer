@@ -5,8 +5,8 @@ A small python based tool intended to quickly change the MAC address of Linux Sy
 
 
 ## Execution
-- 1.```sudo python3 mac_changer.py```
-- 2.```sudo python3 mac_changer.py -i network_interface -m new_mac```
+- 1. ```sudo python3 mac_changer.py```
+- 2. ```sudo python3 mac_changer.py -i network_interface -m new_mac```
 - I have coded the application to adapt to your way of execution so anyone of the above will work.
 - replace *network_interface* with you Network Card Interface ID.
 - replace *new_mac* to whatever MAC Address you wanna switch.
