@@ -19,4 +19,7 @@ A small python based tool intended to quickly change the MAC address of Linux Sy
 - The additional software : **net-tools** can be easily installed from the terminal.
 - Execute the script with root / superuser privileges.
 
+## Bugs
+- If you found any bugs report to mage-master@tutanota.com
+
 ### - Mage-Master
