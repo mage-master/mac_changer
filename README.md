@@ -1,18 +1,22 @@
 # MAC CHANGER
 
-A small python to quickly change the MAC address of any linux machine. 
-*The required additional software* - **net-tools** which you can easily install), this script requires root previlages to run.
 
-Command : **sudo python3 mac_changer.py** (*or*) **sudo python3 mac_changer.py -i network_interface -m new_mac**.
-*network_interface* is the network card name (example:**eth0**.
-*new_mac* is where you specify MAC address that you want to change.
+A small python based tool intended to quickly change the MAC address of Linux Systems. 
 
-*Use --help or -h for the help message.* 
 
-You can execute the script without or without the command line arguments, the script is coded to auto adpat to your imput.
+## Execution
+- 1. ```sudo python3 mac_changer.py```
+- 2. ```sudo python3 mac_changer.py -i network_interface -m new_mac```
+- I have coded the application to adapt to your way of execution so anyone of the above will work.
+- replace *network_interface* with you Network Card Interface ID.
+- replace *new_mac* to whatever MAC Address you wanna switch.
+- *Use --help or -h for additional help while executing the program.*
 
-**NOTE**: *On some Linux systems there maybe some unexpected errors, so enter the mac address starting with zeros: **00:xx:xx:xx:xx:xx**. 
+## NOTE:
+- On some Linux systems there maybe some unexpected errors
+- Therefore use this format : **00:xx:xx:xx:xx:xx** where 00 always is at the first and then followed by your desired hex digits. 
+- Python 3 is required to be installed on your system for the program to successfully execute.
+- The additional software : **net-tools** can be easily installed from the terminal.
+- Execute the script with root / superuser privileges.
 
-*ps: Kindly be sane enough to input hexadecimal values in the x places, by this far you must already know that. Requires python 3.x to run*
-
-**- mage-master**
+### mage-master
